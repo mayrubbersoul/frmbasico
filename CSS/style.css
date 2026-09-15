@@ -1,19 +1,21 @@
-body{
-    display: flex;
+body {
+    display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
-    background-color: #756fac;
+    background: linear-gradient(to bottom, #5786b8) 
 }
+
 .formulario{
-        width: 400px;
-        height: 400px;
-        background-color: #3a1a70;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 3px 3px 10px #3c1f71;
+    width: 400px;
+    height: 400px;
+    background-color: #5786b8;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px black;
 }
+
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario textarea{
@@ -23,5 +25,10 @@ body{
     margin-bottom: 10px;
     border: 10px;
     border-radius: 5px;
+    resize: none;
 }
-    
+
+button{
+border: 10px;
+border-radius: 5px;
+}
